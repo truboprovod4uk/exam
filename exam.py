@@ -71,5 +71,6 @@ elif 60 <= bal <= 62:
     print('Ваш рівень - Advanced!')
     answ.write('Ваш рівень - Advanced! \n')
 print('Результати тесту та правильні відповіді записані в файл: '+ first_name + '_' + last_name + '.txt')
+print("До побачення, "+first_name)
 quest.close()
 answ.close()
